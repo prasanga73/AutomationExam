@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bfa32ff2-cd00-4dc6-abe6-1db9b0289690" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationExam/BaseClass/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationExam/BaseClass/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationExam/LoginTest/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationExam/LoginTest/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationExam/LoginTest/LoginTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationExam/LoginTest/LoginTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationExam/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AutomationExam/testng.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000000003495" />
+      <entry key="MS500" value="1.003227163534202" />
+      <entry key="S2" value="1.2705549202429338" />
+      <entry key="S5" value="1.821066496993057" />
+      <entry key="S10" value="2.3207978138568413" />
+      <entry key="S30" value="3.110430794730746" />
+      <entry key="S60" value="3.482568015816815" />
+      <entry key="M2" value="3.7433982145843254" />
+      <entry key="M5" value="5.777165898553109" />
+      <entry key="M10" value="14.600106025940724" />
+      <entry key="M15" value="23.869843729508126" />
+      <entry key="M30" value="42.13611140775991" />
+      <entry key="H1" value="57.31868412596733" />
+      <entry key="H2" value="67.18915082619937" />
+      <entry key="H4" value="72.8288115078071" />
+      <entry key="D1" value="77.93239812739623" />
+      <entry key="W1" value="78.84649910020606" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="5.1885492077479345E-65" />
+      <entry key="MS500" value="1.502564406415029E-13" />
+      <entry key="S2" value="9.37385417405736E-4" />
+      <entry key="S5" value="0.09614729496419486" />
+      <entry key="S10" value="0.49206093995579686" />
+      <entry key="S30" value="1.595540437520728" />
+      <entry key="S60" value="2.178621376544211" />
+      <entry key="M2" value="2.5609923770387035" />
+      <entry key="M5" value="3.256485155684444" />
+      <entry key="M10" value="5.136369138292982" />
+      <entry key="M15" value="6.998853922488637" />
+      <entry key="M30" value="10.633907022038203" />
+      <entry key="H1" value="13.659280624020896" />
+      <entry key="H2" value="15.632215468317789" />
+      <entry key="H4" value="16.761868467396592" />
+      <entry key="D1" value="17.785655923601706" />
+      <entry key="W1" value="17.96917753247223" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.8350879194286909" />
+      <entry key="MS500" value="0.9677720934564914" />
+      <entry key="S2" value="1.2610605895278009" />
+      <entry key="S5" value="1.9010814500510618" />
+      <entry key="S10" value="2.7787399176630188" />
+      <entry key="S30" value="4.66690623175353" />
+      <entry key="S60" value="5.633753525612453" />
+      <entry key="M2" value="6.287882470532122" />
+      <entry key="M5" value="9.021171554288703" />
+      <entry key="M10" value="19.717295909992792" />
+      <entry key="M15" value="30.846461925545494" />
+      <entry key="M30" value="52.74932487368381" />
+      <entry key="H1" value="70.96356150189266" />
+      <entry key="H2" value="82.81283364312056" />
+      <entry key="H4" value="89.58603163965863" />
+      <entry key="D1" value="95.71722155075078" />
+      <entry key="W1" value="96.81555622355022" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3J4XCVUBaFjrdlf7vWQc92tGhRc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "TestNG./home/ethereal/IdeaProjects/AutomationExam/src/test/java/AutomationExam/testng.xml.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "Reverting in main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/ethereal/IdeaProjects/AutomationQA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/ethereal/IdeaProjects/AutomationExam/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-34e2839f716b-intellij.indexing.shared.core-IU-262.9437.185" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.9437.185" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfa32ff2-cd00-4dc6-abe6-1db9b0289690" name="Changes" comment="" />
+      <created>1788921189428</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788921189428</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
