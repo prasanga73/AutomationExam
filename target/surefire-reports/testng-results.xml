@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-10T09:26:58 NPT" name="Automation Exercise Suite" finished-at="2026-09-10T09:27:14 NPT" duration-ms="15875">
+    <groups>
+    </groups>
+    <test started-at="2026-09-10T09:26:58 NPT" name="Login Test" finished-at="2026-09-10T09:27:14 NPT" duration-ms="15875">
+      <class name="AutomationExam.TestCases.LoginTestCases">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:26:58 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:00 NPT" duration-ms="1435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="ValidUsernameValidPassword()[pri:1, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:00 NPT" name="ValidUsernameValidPassword" finished-at="2026-09-10T09:27:00 NPT" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidUsernameValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:00 NPT" name="tearDown" finished-at="2026-09-10T09:27:00 NPT" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:00 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:01 NPT" duration-ms="1165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="ValidUsernameInvalidPassword()[pri:2, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:01 NPT" name="ValidUsernameInvalidPassword" finished-at="2026-09-10T09:27:01 NPT" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidUsernameInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:01 NPT" name="tearDown" finished-at="2026-09-10T09:27:01 NPT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:01 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:03 NPT" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="ValidUsernameEmptyPassword()[pri:3, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:03 NPT" name="ValidUsernameEmptyPassword" finished-at="2026-09-10T09:27:03 NPT" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidUsernameEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:03 NPT" name="tearDown" finished-at="2026-09-10T09:27:03 NPT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:03 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:04 NPT" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="InvalidUsernameValidPassword()[pri:4, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:04 NPT" name="InvalidUsernameValidPassword" finished-at="2026-09-10T09:27:04 NPT" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidUsernameValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:04 NPT" name="tearDown" finished-at="2026-09-10T09:27:04 NPT" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:04 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:05 NPT" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="InvalidUsernameInvalidPassword()[pri:5, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:05 NPT" name="InvalidUsernameInvalidPassword" finished-at="2026-09-10T09:27:06 NPT" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidUsernameInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:06 NPT" name="tearDown" finished-at="2026-09-10T09:27:06 NPT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:06 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:07 NPT" duration-ms="1106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="InvalidUsernameEmptyPassword()[pri:6, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:07 NPT" name="InvalidUsernameEmptyPassword" finished-at="2026-09-10T09:27:07 NPT" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidUsernameEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:07 NPT" name="tearDown" finished-at="2026-09-10T09:27:07 NPT" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:07 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:08 NPT" duration-ms="1123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="EmptyUsernameValidPassword()[pri:7, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:08 NPT" name="EmptyUsernameValidPassword" finished-at="2026-09-10T09:27:08 NPT" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyUsernameValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:08 NPT" name="tearDown" finished-at="2026-09-10T09:27:08 NPT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:08 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:09 NPT" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="EmptyUsernameInvalidPassword()[pri:8, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:09 NPT" name="EmptyUsernameInvalidPassword" finished-at="2026-09-10T09:27:10 NPT" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyUsernameInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:10 NPT" name="tearDown" finished-at="2026-09-10T09:27:10 NPT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:10 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:11 NPT" duration-ms="1115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="EmptyUsernameEmptyPassword()[pri:9, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:11 NPT" name="EmptyUsernameEmptyPassword" finished-at="2026-09-10T09:27:11 NPT" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyUsernameEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:11 NPT" name="tearDown" finished-at="2026-09-10T09:27:11 NPT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AutomationExam.TestCases.LoginTestCases -->
+      <class name="AutomationExam.TestCases.CartTestCases">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.CartTestCases@130161f7]" started-at="2026-09-10T09:27:11 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:12 NPT" duration-ms="1158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="cartItemIncreaseTest()[pri:1, instance:AutomationExam.TestCases.CartTestCases@130161f7]" started-at="2026-09-10T09:27:12 NPT" name="cartItemIncreaseTest" finished-at="2026-09-10T09:27:12 NPT" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartItemIncreaseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.CartTestCases@130161f7]" started-at="2026-09-10T09:27:12 NPT" name="tearDown" finished-at="2026-09-10T09:27:12 NPT" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.CartTestCases@130161f7]" started-at="2026-09-10T09:27:12 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:14 NPT" duration-ms="1356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="cartItemDecreaseTest()[pri:2, instance:AutomationExam.TestCases.CartTestCases@130161f7]" started-at="2026-09-10T09:27:14 NPT" name="cartItemDecreaseTest" finished-at="2026-09-10T09:27:14 NPT" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cartItemDecreaseTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.CartTestCases@130161f7]" started-at="2026-09-10T09:27:14 NPT" name="tearDown" finished-at="2026-09-10T09:27:14 NPT" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- AutomationExam.TestCases.CartTestCases -->
+    </test> <!-- Login Test -->
+  </suite> <!-- Automation Exercise Suite -->
+</testng-results>
