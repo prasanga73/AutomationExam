@@ -1,0 +1,8 @@
+AutomationExam/CartCases/Base/BaseClass.class
+AutomationExam/CartCases/Pages/ProductPage.class
+AutomationExam/LoginCases/TestCases/LoginTestCases.class
+AutomationExam/LoginCases/Pages/LoginPage.class
+AutomationExam/LoginCases/BaseClass/BaseClass.class
+AutomationExam/CartCases/Pages/LoginPage.class
+AutomationExam/CartCases/Pages/CartPage.class
+AutomationExam/CartCases/TestCases/CartAutomation.class

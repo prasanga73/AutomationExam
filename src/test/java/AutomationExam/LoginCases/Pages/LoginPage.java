@@ -1,4 +1,4 @@
-package AutomationExam.Pages;
+package AutomationExam.LoginCases.Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

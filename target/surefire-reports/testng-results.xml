@@ -1,147 +1,362 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="14" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-10T09:26:58 NPT" name="Automation Exercise Suite" finished-at="2026-09-10T09:27:14 NPT" duration-ms="15875">
+  <suite started-at="2026-09-20T23:07:39 NPT" name="Automation Exercise Suite" finished-at="2026-09-20T23:09:20 NPT" duration-ms="100593">
     <groups>
+      <group name="regression">
+        <method signature="CartAutomation.emptyCartCheckOut()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" name="emptyCartCheckOut" class="AutomationExam.CartCases.TestCases.CartAutomation"/>
+        <method signature="CartAutomation.productTitleBtnCheck()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" name="productTitleBtnCheck" class="AutomationExam.CartCases.TestCases.CartAutomation"/>
+        <method signature="CartAutomation.removeButtonCheck()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" name="removeButtonCheck" class="AutomationExam.CartCases.TestCases.CartAutomation"/>
+        <method signature="CartAutomation.testCheckoutFeature()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" name="testCheckoutFeature" class="AutomationExam.CartCases.TestCases.CartAutomation"/>
+        <method signature="CartAutomation.testContinueShoppingBtn()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" name="testContinueShoppingBtn" class="AutomationExam.CartCases.TestCases.CartAutomation"/>
+        <method signature="CartAutomation.validateLoginAndCartHeroText()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" name="validateLoginAndCartHeroText" class="AutomationExam.CartCases.TestCases.CartAutomation"/>
+        <method signature="CartAutomation.verifyCorrectProductsAppearInCart()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" name="verifyCorrectProductsAppearInCart" class="AutomationExam.CartCases.TestCases.CartAutomation"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="CartAutomation.testCheckoutFeature()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" name="testCheckoutFeature" class="AutomationExam.CartCases.TestCases.CartAutomation"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-09-10T09:26:58 NPT" name="Login Test" finished-at="2026-09-10T09:27:14 NPT" duration-ms="15875">
-      <class name="AutomationExam.TestCases.LoginTestCases">
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:26:58 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:00 NPT" duration-ms="1435" status="PASS">
+    <test started-at="2026-09-20T23:07:39 NPT" name="Login Test" finished-at="2026-09-20T23:09:20 NPT" duration-ms="100593">
+      <class name="AutomationExam.LoginCases.TestCases.LoginTestCases">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:05 NPT" name="setupBrowser" finished-at="2026-09-20T23:09:06 NPT" duration-ms="1439" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="ValidUsernameValidPassword()[pri:1, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:00 NPT" name="ValidUsernameValidPassword" finished-at="2026-09-10T09:27:00 NPT" duration-ms="245" status="PASS">
+        <test-method signature="ValidUsernameValidPassword()[pri:1, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:06 NPT" name="ValidUsernameValidPassword" finished-at="2026-09-20T23:09:06 NPT" duration-ms="375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidUsernameValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:00 NPT" name="tearDown" finished-at="2026-09-10T09:27:00 NPT" duration-ms="81" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:06 NPT" name="tearDown" finished-at="2026-09-20T23:09:06 NPT" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:00 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:01 NPT" duration-ms="1165" status="PASS">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:06 NPT" name="setupBrowser" finished-at="2026-09-20T23:09:08 NPT" duration-ms="1574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="ValidUsernameInvalidPassword()[pri:2, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:01 NPT" name="ValidUsernameInvalidPassword" finished-at="2026-09-10T09:27:01 NPT" duration-ms="210" status="PASS">
+        <test-method signature="ValidUsernameInvalidPassword()[pri:2, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:08 NPT" name="ValidUsernameInvalidPassword" finished-at="2026-09-20T23:09:08 NPT" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidUsernameInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:01 NPT" name="tearDown" finished-at="2026-09-10T09:27:01 NPT" duration-ms="69" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:08 NPT" name="tearDown" finished-at="2026-09-20T23:09:08 NPT" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:01 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:03 NPT" duration-ms="1085" status="PASS">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:08 NPT" name="setupBrowser" finished-at="2026-09-20T23:09:10 NPT" duration-ms="1268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="ValidUsernameEmptyPassword()[pri:3, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:03 NPT" name="ValidUsernameEmptyPassword" finished-at="2026-09-10T09:27:03 NPT" duration-ms="154" status="PASS">
+        <test-method signature="ValidUsernameEmptyPassword()[pri:3, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:10 NPT" name="ValidUsernameEmptyPassword" finished-at="2026-09-20T23:09:10 NPT" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidUsernameEmptyPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:03 NPT" name="tearDown" finished-at="2026-09-10T09:27:03 NPT" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:10 NPT" name="tearDown" finished-at="2026-09-20T23:09:10 NPT" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:03 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:04 NPT" duration-ms="1177" status="PASS">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:10 NPT" name="setupBrowser" finished-at="2026-09-20T23:09:11 NPT" duration-ms="1225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="InvalidUsernameValidPassword()[pri:4, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:04 NPT" name="InvalidUsernameValidPassword" finished-at="2026-09-10T09:27:04 NPT" duration-ms="200" status="PASS">
+        <test-method signature="InvalidUsernameValidPassword()[pri:4, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:11 NPT" name="InvalidUsernameValidPassword" finished-at="2026-09-20T23:09:11 NPT" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidUsernameValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:04 NPT" name="tearDown" finished-at="2026-09-10T09:27:04 NPT" duration-ms="73" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:11 NPT" name="tearDown" finished-at="2026-09-20T23:09:11 NPT" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:04 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:05 NPT" duration-ms="1117" status="PASS">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:11 NPT" name="setupBrowser" finished-at="2026-09-20T23:09:13 NPT" duration-ms="1274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="InvalidUsernameInvalidPassword()[pri:5, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:05 NPT" name="InvalidUsernameInvalidPassword" finished-at="2026-09-10T09:27:06 NPT" duration-ms="193" status="PASS">
+        <test-method signature="InvalidUsernameInvalidPassword()[pri:5, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:13 NPT" name="InvalidUsernameInvalidPassword" finished-at="2026-09-20T23:09:13 NPT" duration-ms="202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidUsernameInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:06 NPT" name="tearDown" finished-at="2026-09-10T09:27:06 NPT" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:13 NPT" name="tearDown" finished-at="2026-09-20T23:09:13 NPT" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:06 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:07 NPT" duration-ms="1106" status="PASS">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:13 NPT" name="setupBrowser" finished-at="2026-09-20T23:09:15 NPT" duration-ms="2301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="InvalidUsernameEmptyPassword()[pri:6, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:07 NPT" name="InvalidUsernameEmptyPassword" finished-at="2026-09-10T09:27:07 NPT" duration-ms="150" status="PASS">
+        <test-method signature="InvalidUsernameEmptyPassword()[pri:6, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:15 NPT" name="InvalidUsernameEmptyPassword" finished-at="2026-09-20T23:09:15 NPT" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InvalidUsernameEmptyPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:07 NPT" name="tearDown" finished-at="2026-09-10T09:27:07 NPT" duration-ms="69" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:15 NPT" name="tearDown" finished-at="2026-09-20T23:09:15 NPT" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:07 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:08 NPT" duration-ms="1123" status="PASS">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:15 NPT" name="setupBrowser" finished-at="2026-09-20T23:09:17 NPT" duration-ms="1337" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="EmptyUsernameValidPassword()[pri:7, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:08 NPT" name="EmptyUsernameValidPassword" finished-at="2026-09-10T09:27:08 NPT" duration-ms="152" status="PASS">
+        <test-method signature="EmptyUsernameValidPassword()[pri:7, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:17 NPT" name="EmptyUsernameValidPassword" finished-at="2026-09-20T23:09:17 NPT" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmptyUsernameValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:08 NPT" name="tearDown" finished-at="2026-09-10T09:27:08 NPT" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:17 NPT" name="tearDown" finished-at="2026-09-20T23:09:17 NPT" duration-ms="66" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:08 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:09 NPT" duration-ms="1079" status="PASS">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:17 NPT" name="setupBrowser" finished-at="2026-09-20T23:09:18 NPT" duration-ms="1235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="EmptyUsernameInvalidPassword()[pri:8, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:09 NPT" name="EmptyUsernameInvalidPassword" finished-at="2026-09-10T09:27:10 NPT" duration-ms="153" status="PASS">
+        <test-method signature="EmptyUsernameInvalidPassword()[pri:8, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:18 NPT" name="EmptyUsernameInvalidPassword" finished-at="2026-09-20T23:09:18 NPT" duration-ms="164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmptyUsernameInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:10 NPT" name="tearDown" finished-at="2026-09-10T09:27:10 NPT" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:18 NPT" name="tearDown" finished-at="2026-09-20T23:09:18 NPT" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:10 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:11 NPT" duration-ms="1115" status="PASS">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:18 NPT" name="setupBrowser" finished-at="2026-09-20T23:09:20 NPT" duration-ms="1229" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="EmptyUsernameEmptyPassword()[pri:9, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:11 NPT" name="EmptyUsernameEmptyPassword" finished-at="2026-09-10T09:27:11 NPT" duration-ms="96" status="PASS">
+        <test-method signature="EmptyUsernameEmptyPassword()[pri:9, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:20 NPT" name="EmptyUsernameEmptyPassword" finished-at="2026-09-20T23:09:20 NPT" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmptyUsernameEmptyPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.LoginTestCases@1622f1b]" started-at="2026-09-10T09:27:11 NPT" name="tearDown" finished-at="2026-09-10T09:27:11 NPT" duration-ms="70" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.LoginCases.TestCases.LoginTestCases@59fd97a8]" started-at="2026-09-20T23:09:20 NPT" name="tearDown" finished-at="2026-09-20T23:09:20 NPT" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- AutomationExam.TestCases.LoginTestCases -->
-      <class name="AutomationExam.TestCases.CartTestCases">
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.CartTestCases@130161f7]" started-at="2026-09-10T09:27:11 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:12 NPT" duration-ms="1158" status="PASS">
+      </class> <!-- AutomationExam.LoginCases.TestCases.LoginTestCases -->
+      <class name="AutomationExam.CartCases.TestCases.CartAutomation">
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:07:39 NPT" name="setupBrowser" finished-at="2026-09-20T23:07:41 NPT" duration-ms="1628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="cartItemIncreaseTest()[pri:1, instance:AutomationExam.TestCases.CartTestCases@130161f7]" started-at="2026-09-10T09:27:12 NPT" name="cartItemIncreaseTest" finished-at="2026-09-10T09:27:12 NPT" duration-ms="273" status="PASS">
+        <test-method is-config="true" signature="setupWait()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:07:41 NPT" name="setupWait" finished-at="2026-09-20T23:07:41 NPT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cartItemIncreaseTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.CartTestCases@130161f7]" started-at="2026-09-10T09:27:12 NPT" name="tearDown" finished-at="2026-09-10T09:27:12 NPT" duration-ms="72" status="PASS">
+        </test-method> <!-- setupWait -->
+        <test-method signature="emptyCartCheckOut()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:07:41 NPT" name="emptyCartCheckOut" finished-at="2026-09-20T23:07:51 NPT" duration-ms="10440" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[did not expect [Checkout: Your Information] but found [Checkout: Your Information]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: did not expect [Checkout: Your Information] but found [Checkout: Your Information]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failEquals(Assert.java:1594)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:157)
+at org.testng.Assert.assertNotEquals(Assert.java:2205)
+at org.testng.Assert.assertNotEquals(Assert.java:2227)
+at AutomationExam.CartCases.Pages.CartPage.validateCheckOutHeroText(CartPage.java:96)
+at AutomationExam.CartCases.TestCases.CartAutomation.emptyCartCheckOut(CartAutomation.java:134)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.TestCases.CartTestCases@130161f7]" started-at="2026-09-10T09:27:12 NPT" name="setupBrowser" finished-at="2026-09-10T09:27:14 NPT" duration-ms="1356" status="PASS">
+        </test-method> <!-- emptyCartCheckOut -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:07:51 NPT" name="closeBrowser" finished-at="2026-09-20T23:07:51 NPT" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:07:51 NPT" name="setupBrowser" finished-at="2026-09-20T23:07:53 NPT" duration-ms="1784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupBrowser -->
-        <test-method signature="cartItemDecreaseTest()[pri:2, instance:AutomationExam.TestCases.CartTestCases@130161f7]" started-at="2026-09-10T09:27:14 NPT" name="cartItemDecreaseTest" finished-at="2026-09-10T09:27:14 NPT" duration-ms="311" status="PASS">
+        <test-method signature="productTitleBtnCheck()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:07:53 NPT" name="productTitleBtnCheck" finished-at="2026-09-20T23:08:04 NPT" duration-ms="10888" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- cartItemDecreaseTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AutomationExam.TestCases.CartTestCases@130161f7]" started-at="2026-09-10T09:27:14 NPT" name="tearDown" finished-at="2026-09-10T09:27:14 NPT" duration-ms="74" status="PASS">
+        </test-method> <!-- productTitleBtnCheck -->
+        <test-method is-config="true" signature="setupWait()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:07:53 NPT" name="setupWait" finished-at="2026-09-20T23:07:53 NPT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- AutomationExam.TestCases.CartTestCases -->
+        </test-method> <!-- setupWait -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:04 NPT" name="closeBrowser" finished-at="2026-09-20T23:08:04 NPT" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:04 NPT" name="setupBrowser" finished-at="2026-09-20T23:08:06 NPT" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="setupWait()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:06 NPT" name="setupWait" finished-at="2026-09-20T23:08:06 NPT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupWait -->
+        <test-method signature="removeButtonCheck()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:06 NPT" name="removeButtonCheck" finished-at="2026-09-20T23:08:37 NPT" duration-ms="31037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeButtonCheck -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:37 NPT" name="closeBrowser" finished-at="2026-09-20T23:08:37 NPT" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:37 NPT" name="setupBrowser" finished-at="2026-09-20T23:08:38 NPT" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="testCheckoutFeature()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:38 NPT" name="testCheckoutFeature" finished-at="2026-09-20T23:08:38 NPT" duration-ms="6" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=152.0.7977.82)
+Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.12.107+deb13-amd64', java.version: '21.0.12.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa941c13a1301580d538dc232f7da2f9, findElement {value=user-name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.82, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34409}, goog:processID: 371595, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:34409/devtoo..., se:cdpVersion: 152.0.7977.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa941c13a1301580d538dc232f7da2f9]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=152.0.7977.82)
+Build info: version: '4.47.0', revision: '9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.12.107+deb13-amd64', java.version: '21.0.12.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa941c13a1301580d538dc232f7da2f9, findElement {value=user-name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.82, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34409}, goog:processID: 371595, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:34409/devtoo..., se:cdpVersion: 152.0.7977.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa941c13a1301580d538dc232f7da2f9
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
+at AutomationExam.CartCases.Pages.LoginPage.login(LoginPage.java:20)
+at AutomationExam.CartCases.TestCases.CartAutomation.navigateToCartAndValidate(CartAutomation.java:32)
+at AutomationExam.CartCases.TestCases.CartAutomation.testCheckoutFeature(CartAutomation.java:55)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:744)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutFeature -->
+        <test-method is-config="true" signature="setupWait()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:38 NPT" name="setupWait" finished-at="2026-09-20T23:08:38 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupWait -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:38 NPT" name="closeBrowser" finished-at="2026-09-20T23:08:38 NPT" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:38 NPT" name="setupBrowser" finished-at="2026-09-20T23:08:39 NPT" duration-ms="1252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method is-config="true" signature="setupWait()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:39 NPT" name="setupWait" finished-at="2026-09-20T23:08:39 NPT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupWait -->
+        <test-method signature="testContinueShoppingBtn()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:39 NPT" name="testContinueShoppingBtn" finished-at="2026-09-20T23:08:40 NPT" duration-ms="429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContinueShoppingBtn -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:40 NPT" name="closeBrowser" finished-at="2026-09-20T23:08:40 NPT" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:40 NPT" name="setupBrowser" finished-at="2026-09-20T23:08:41 NPT" duration-ms="1610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="validateLoginAndCartHeroText()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:41 NPT" name="validateLoginAndCartHeroText" finished-at="2026-09-20T23:08:42 NPT" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginAndCartHeroText -->
+        <test-method is-config="true" signature="setupWait()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:41 NPT" name="setupWait" finished-at="2026-09-20T23:08:41 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupWait -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:42 NPT" name="closeBrowser" finished-at="2026-09-20T23:08:42 NPT" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:42 NPT" name="setupBrowser" finished-at="2026-09-20T23:08:44 NPT" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="verifyCorrectProductsAppearInCart()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:44 NPT" name="verifyCorrectProductsAppearInCart" finished-at="2026-09-20T23:09:05 NPT" duration-ms="20879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCorrectProductsAppearInCart -->
+        <test-method is-config="true" signature="setupWait()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:08:44 NPT" name="setupWait" finished-at="2026-09-20T23:08:44 NPT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupWait -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:AutomationExam.CartCases.TestCases.CartAutomation@34b7ac2f]" started-at="2026-09-20T23:09:05 NPT" name="closeBrowser" finished-at="2026-09-20T23:09:05 NPT" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- AutomationExam.CartCases.TestCases.CartAutomation -->
     </test> <!-- Login Test -->
   </suite> <!-- Automation Exercise Suite -->
 </testng-results>

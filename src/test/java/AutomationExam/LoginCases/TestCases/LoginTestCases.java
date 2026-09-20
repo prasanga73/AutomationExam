@@ -1,7 +1,8 @@
-package AutomationExam.TestCases;
+package AutomationExam.LoginCases.TestCases;
 
-import AutomationExam.BaseClass.BaseClass;
-import AutomationExam.Pages.LoginPage;
+
+import AutomationExam.LoginCases.BaseClass.BaseClass;
+import AutomationExam.LoginCases.Pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

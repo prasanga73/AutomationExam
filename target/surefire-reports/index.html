@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Automation_Exercise_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Automation Exercise Suite</span>
+              <span class="suite-name border-failed">Automation Exercise Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Automation_Exercise_Suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods,   11 passed</span>
+                    <span class="method-stats">16 methods, 2 failed,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Automation_Exercise_Suite" class="hide-methods failed suite-Automation_Exercise_Suite"> (hide)</a> <!-- hide-methods failed suite-Automation_Exercise_Suite -->
+                      <a href="#" panel-name="suite-Automation_Exercise_Suite" class="show-methods failed suite-Automation_Exercise_Suite"> (show)</a> <!-- show-methods failed suite-Automation_Exercise_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Automation_Exercise_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.CartCases.TestCases.CartAutomation" class="method navigator-link" hash-for-method="emptyCartCheckOut">emptyCartCheckOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.CartCases.TestCases.CartAutomation" class="method navigator-link" hash-for-method="testCheckoutFeature">testCheckoutFeature</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Automation_Exercise_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,57 +122,72 @@
                     <div class="method-list-content passed suite-Automation_Exercise_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="EmptyUsernameEmptyPassword">EmptyUsernameEmptyPassword</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.LoginCases.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="EmptyUsernameEmptyPassword">EmptyUsernameEmptyPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="EmptyUsernameInvalidPassword">EmptyUsernameInvalidPassword</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.LoginCases.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="EmptyUsernameInvalidPassword">EmptyUsernameInvalidPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="EmptyUsernameValidPassword">EmptyUsernameValidPassword</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.LoginCases.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="EmptyUsernameValidPassword">EmptyUsernameValidPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="InvalidUsernameEmptyPassword">InvalidUsernameEmptyPassword</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.LoginCases.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="InvalidUsernameEmptyPassword">InvalidUsernameEmptyPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="InvalidUsernameInvalidPassword">InvalidUsernameInvalidPassword</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.LoginCases.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="InvalidUsernameInvalidPassword">InvalidUsernameInvalidPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="InvalidUsernameValidPassword">InvalidUsernameValidPassword</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.LoginCases.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="InvalidUsernameValidPassword">InvalidUsernameValidPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="ValidUsernameEmptyPassword">ValidUsernameEmptyPassword</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.LoginCases.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="ValidUsernameEmptyPassword">ValidUsernameEmptyPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="ValidUsernameInvalidPassword">ValidUsernameInvalidPassword</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.LoginCases.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="ValidUsernameInvalidPassword">ValidUsernameInvalidPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="ValidUsernameValidPassword">ValidUsernameValidPassword</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.LoginCases.TestCases.LoginTestCases" class="method navigator-link" hash-for-method="ValidUsernameValidPassword">ValidUsernameValidPassword</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.TestCases.CartTestCases" class="method navigator-link" hash-for-method="cartItemDecreaseTest">cartItemDecreaseTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.CartCases.TestCases.CartAutomation" class="method navigator-link" hash-for-method="productTitleBtnCheck">productTitleBtnCheck</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.TestCases.CartTestCases" class="method navigator-link" hash-for-method="cartItemIncreaseTest">cartItemIncreaseTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.CartCases.TestCases.CartAutomation" class="method navigator-link" hash-for-method="removeButtonCheck">removeButtonCheck</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.CartCases.TestCases.CartAutomation" class="method navigator-link" hash-for-method="testContinueShoppingBtn">testContinueShoppingBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.CartCases.TestCases.CartAutomation" class="method navigator-link" hash-for-method="validateLoginAndCartHeroText">validateLoginAndCartHeroText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Exercise_Suite" title="AutomationExam.CartCases.TestCases.CartAutomation" class="method navigator-link" hash-for-method="verifyCorrectProductsAppearInCart">verifyCorrectProductsAppearInCart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Automation_Exercise_Suite -->
@@ -168,10 +202,107 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Automation_Exercise_Suite" class="panel Automation_Exercise_Suite">
+          <div class="suite-Automation_Exercise_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">AutomationExam.CartCases.TestCases.CartAutomation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyCartCheckOut">
+                  </a> <!-- emptyCartCheckOut -->
+                  <span class="method-name">emptyCartCheckOut</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect [Checkout: Your Information] but found [Checkout: Your Information]
+	at AutomationExam.CartCases.Pages.CartPage.validateCheckOutHeroText(CartPage.java:96)
+	at AutomationExam.CartCases.TestCases.CartAutomation.emptyCartCheckOut(CartAutomation.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckoutFeature">
+                  </a> <!-- testCheckoutFeature -->
+                  <span class="method-name">testCheckoutFeature</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=152.0.7977.82)
+Build info: version: &apos;4.47.0&apos;, revision: &apos;9175ed9 9175ed94d83e87cc3abeb7c9fd91367d17849d35&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.12.107+deb13-amd64&apos;, java.version: &apos;21.0.12.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aa941c13a1301580d538dc232f7da2f9, findElement {value=user-name, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 152.0.7977.82, chrome: {chromedriverVersion: 152.0.7977.82 (d04cdb24d67b..., userDataDir: /tmp/org.chromium.Chromium....}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34409}, goog:processID: 371595, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:34409/devtoo..., se:cdpVersion: 152.0.7977.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: aa941c13a1301580d538dc232f7da2f9
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:653)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:417)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:411)
+	at AutomationExam.CartCases.Pages.LoginPage.login(LoginPage.java:20)
+	at AutomationExam.CartCases.TestCases.CartAutomation.navigateToCartAndValidate(CartAutomation.java:32)
+	at AutomationExam.CartCases.TestCases.CartAutomation.testCheckoutFeature(CartAutomation.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Exercise_Suite-class-failed -->
           <div class="suite-Automation_Exercise_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">AutomationExam.TestCases.LoginTestCases</span>
+              <span class="class-name">AutomationExam.CartCases.TestCases.CartAutomation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productTitleBtnCheck">
+                  </a> <!-- productTitleBtnCheck -->
+                  <span class="method-name">productTitleBtnCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeButtonCheck">
+                  </a> <!-- removeButtonCheck -->
+                  <span class="method-name">removeButtonCheck</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testContinueShoppingBtn">
+                  </a> <!-- testContinueShoppingBtn -->
+                  <span class="method-name">testContinueShoppingBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginAndCartHeroText">
+                  </a> <!-- validateLoginAndCartHeroText -->
+                  <span class="method-name">validateLoginAndCartHeroText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCorrectProductsAppearInCart">
+                  </a> <!-- verifyCorrectProductsAppearInCart -->
+                  <span class="method-name">verifyCorrectProductsAppearInCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Exercise_Suite-class-passed -->
+          <div class="suite-Automation_Exercise_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">AutomationExam.LoginCases.TestCases.LoginTestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -239,28 +370,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Automation_Exercise_Suite-class-passed -->
-          <div class="suite-Automation_Exercise_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">AutomationExam.TestCases.CartTestCases</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="cartItemDecreaseTest">
-                  </a> <!-- cartItemDecreaseTest -->
-                  <span class="method-name">cartItemDecreaseTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="cartItemIncreaseTest">
-                  </a> <!-- cartItemIncreaseTest -->
-                  <span class="method-name">cartItemIncreaseTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Automation_Exercise_Suite-class-passed -->
         </div> <!-- panel Automation_Exercise_Suite -->
         <div panel-name="test-xml-Automation_Exercise_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -273,8 +382,8 @@
 &lt;suite name=&quot;Automation Exercise Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Login Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;AutomationExam.TestCases.LoginTestCases&quot;/&gt;
-      &lt;class name=&quot;AutomationExam.TestCases.CartTestCases&quot;/&gt;
+      &lt;class name=&quot;AutomationExam.CartCases.TestCases.CartAutomation&quot;/&gt;
+      &lt;class name=&quot;AutomationExam.LoginCases.TestCases.LoginTestCases&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Login Test --&gt;
 &lt;/suite&gt; &lt;!-- Automation Exercise Suite --&gt;
@@ -298,6 +407,46 @@
             <span class="header-content">Groups for Automation Exercise Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">emptyCartCheckOut</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">productTitleBtnCheck</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">removeButtonCheck</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCheckoutFeature</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testContinueShoppingBtn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateLoginAndCartHeroText</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyCorrectProductsAppearInCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">testCheckoutFeature</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Automation_Exercise_Suite" class="panel">
@@ -314,56 +463,76 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(11);
+data.addRows(16);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'cartItemDecreaseTest')
-data.setCell(0, 2, 'AutomationExam.TestCases.CartTestCases')
-data.setCell(0, 3, 311);
+data.setCell(0, 1, 'removeButtonCheck')
+data.setCell(0, 2, 'AutomationExam.CartCases.TestCases.CartAutomation')
+data.setCell(0, 3, 31037);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'cartItemIncreaseTest')
-data.setCell(1, 2, 'AutomationExam.TestCases.CartTestCases')
-data.setCell(1, 3, 273);
+data.setCell(1, 1, 'verifyCorrectProductsAppearInCart')
+data.setCell(1, 2, 'AutomationExam.CartCases.TestCases.CartAutomation')
+data.setCell(1, 3, 20879);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'ValidUsernameValidPassword')
-data.setCell(2, 2, 'AutomationExam.TestCases.LoginTestCases')
-data.setCell(2, 3, 245);
+data.setCell(2, 1, 'productTitleBtnCheck')
+data.setCell(2, 2, 'AutomationExam.CartCases.TestCases.CartAutomation')
+data.setCell(2, 3, 10888);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'ValidUsernameInvalidPassword')
-data.setCell(3, 2, 'AutomationExam.TestCases.LoginTestCases')
-data.setCell(3, 3, 210);
+data.setCell(3, 1, 'emptyCartCheckOut')
+data.setCell(3, 2, 'AutomationExam.CartCases.TestCases.CartAutomation')
+data.setCell(3, 3, 10440);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'InvalidUsernameValidPassword')
-data.setCell(4, 2, 'AutomationExam.TestCases.LoginTestCases')
-data.setCell(4, 3, 200);
+data.setCell(4, 1, 'validateLoginAndCartHeroText')
+data.setCell(4, 2, 'AutomationExam.CartCases.TestCases.CartAutomation')
+data.setCell(4, 3, 881);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'InvalidUsernameInvalidPassword')
-data.setCell(5, 2, 'AutomationExam.TestCases.LoginTestCases')
-data.setCell(5, 3, 193);
+data.setCell(5, 1, 'testContinueShoppingBtn')
+data.setCell(5, 2, 'AutomationExam.CartCases.TestCases.CartAutomation')
+data.setCell(5, 3, 429);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'ValidUsernameEmptyPassword')
-data.setCell(6, 2, 'AutomationExam.TestCases.LoginTestCases')
-data.setCell(6, 3, 154);
+data.setCell(6, 1, 'ValidUsernameValidPassword')
+data.setCell(6, 2, 'AutomationExam.LoginCases.TestCases.LoginTestCases')
+data.setCell(6, 3, 375);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'EmptyUsernameInvalidPassword')
-data.setCell(7, 2, 'AutomationExam.TestCases.LoginTestCases')
-data.setCell(7, 3, 153);
+data.setCell(7, 1, 'ValidUsernameInvalidPassword')
+data.setCell(7, 2, 'AutomationExam.LoginCases.TestCases.LoginTestCases')
+data.setCell(7, 3, 271);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'EmptyUsernameValidPassword')
-data.setCell(8, 2, 'AutomationExam.TestCases.LoginTestCases')
-data.setCell(8, 3, 152);
+data.setCell(8, 1, 'InvalidUsernameInvalidPassword')
+data.setCell(8, 2, 'AutomationExam.LoginCases.TestCases.LoginTestCases')
+data.setCell(8, 3, 202);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'InvalidUsernameEmptyPassword')
-data.setCell(9, 2, 'AutomationExam.TestCases.LoginTestCases')
-data.setCell(9, 3, 150);
+data.setCell(9, 1, 'InvalidUsernameValidPassword')
+data.setCell(9, 2, 'AutomationExam.LoginCases.TestCases.LoginTestCases')
+data.setCell(9, 3, 193);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'EmptyUsernameEmptyPassword')
-data.setCell(10, 2, 'AutomationExam.TestCases.LoginTestCases')
-data.setCell(10, 3, 96);
+data.setCell(10, 1, 'EmptyUsernameInvalidPassword')
+data.setCell(10, 2, 'AutomationExam.LoginCases.TestCases.LoginTestCases')
+data.setCell(10, 3, 164);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ValidUsernameEmptyPassword')
+data.setCell(11, 2, 'AutomationExam.LoginCases.TestCases.LoginTestCases')
+data.setCell(11, 3, 156);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'EmptyUsernameValidPassword')
+data.setCell(12, 2, 'AutomationExam.LoginCases.TestCases.LoginTestCases')
+data.setCell(12, 3, 153);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'InvalidUsernameEmptyPassword')
+data.setCell(13, 2, 'AutomationExam.LoginCases.TestCases.LoginTestCases')
+data.setCell(13, 3, 153);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'EmptyUsernameEmptyPassword')
+data.setCell(14, 2, 'AutomationExam.LoginCases.TestCases.LoginTestCases')
+data.setCell(14, 3, 97);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testCheckoutFeature')
+data.setCell(15, 2, 'AutomationExam.CartCases.TestCases.CartAutomation')
+data.setCell(15, 3, 6);
 window.suiteTableData['Automation_Exercise_Suite']= { tableData: data, tableDiv: 'times-div-Automation_Exercise_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Automation_Exercise_Suite">
               </div> <!-- times-div-Automation_Exercise_Suite -->
             </div> <!-- times-div -->
@@ -389,141 +558,233 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">AutomationExam.TestCases.LoginTestCases</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">AutomationExam.CartCases.TestCases.CartAutomation</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setupBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupWait</span>
+                <span class="method-start">1629 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">ValidUsernameValidPassword</span>
-                <span class="method-start">1436 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">emptyCartCheckOut</span>
+                <span class="method-start">1631 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">1682 ms</span>
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">12074 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupBrowser</span>
-                <span class="method-start">1767 ms</span>
+                <span class="method-start">12155 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupWait</span>
+                <span class="method-start">13939 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">ValidUsernameInvalidPassword</span>
-                <span class="method-start">2932 ms</span>
+                <span class="method-name">productTitleBtnCheck</span>
+                <span class="method-start">13939 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">3143 ms</span>
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">24829 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupBrowser</span>
-                <span class="method-start">3213 ms</span>
+                <span class="method-start">24900 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupWait</span>
+                <span class="method-start">26239 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">ValidUsernameEmptyPassword</span>
-                <span class="method-start">4298 ms</span>
+                <span class="method-name">removeButtonCheck</span>
+                <span class="method-start">26240 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">4452 ms</span>
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">57278 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupBrowser</span>
-                <span class="method-start">4519 ms</span>
+                <span class="method-start">57357 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupWait</span>
+                <span class="method-start">58631 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">InvalidUsernameValidPassword</span>
-                <span class="method-start">5696 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testCheckoutFeature</span>
+                <span class="method-start">58631 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">5896 ms</span>
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">58644 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupBrowser</span>
-                <span class="method-start">5971 ms</span>
+                <span class="method-start">58711 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupWait</span>
+                <span class="method-start">59964 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">InvalidUsernameInvalidPassword</span>
-                <span class="method-start">7089 ms</span>
+                <span class="method-name">testContinueShoppingBtn</span>
+                <span class="method-start">59970 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">7282 ms</span>
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">60399 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupBrowser</span>
-                <span class="method-start">7349 ms</span>
+                <span class="method-start">60468 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setupWait</span>
+                <span class="method-start">62078 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">InvalidUsernameEmptyPassword</span>
-                <span class="method-start">8455 ms</span>
+                <span class="method-name">validateLoginAndCartHeroText</span>
+                <span class="method-start">62078 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">8605 ms</span>
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">62959 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupBrowser</span>
-                <span class="method-start">8676 ms</span>
+                <span class="method-start">63027 ms</span>
               </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">EmptyUsernameValidPassword</span>
-                <span class="method-start">9799 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">9951 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="configuration-method before">
-                <span class="method-name">setupBrowser</span>
-                <span class="method-start">10018 ms</span>
+                <span class="method-name">setupWait</span>
+                <span class="method-start">64355 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">EmptyUsernameInvalidPassword</span>
-                <span class="method-start">11098 ms</span>
+                <span class="method-name">verifyCorrectProductsAppearInCart</span>
+                <span class="method-start">64355 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">11251 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setupBrowser</span>
-                <span class="method-start">11317 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">EmptyUsernameEmptyPassword</span>
-                <span class="method-start">12433 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">12530 ms</span>
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">85235 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">AutomationExam.TestCases.CartTestCases</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">AutomationExam.LoginCases.TestCases.LoginTestCases</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setupBrowser</span>
-                <span class="method-start">12602 ms</span>
+                <span class="method-start">85310 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">cartItemIncreaseTest</span>
-                <span class="method-start">13760 ms</span>
+                <span class="method-name">ValidUsernameValidPassword</span>
+                <span class="method-start">86749 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14033 ms</span>
+                <span class="method-start">87124 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setupBrowser</span>
-                <span class="method-start">14107 ms</span>
+                <span class="method-start">87194 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">cartItemDecreaseTest</span>
-                <span class="method-start">15464 ms</span>
+                <span class="method-name">ValidUsernameInvalidPassword</span>
+                <span class="method-start">88768 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15775 ms</span>
+                <span class="method-start">89040 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">89111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ValidUsernameEmptyPassword</span>
+                <span class="method-start">90379 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90535 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">90601 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InvalidUsernameValidPassword</span>
+                <span class="method-start">91826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">92019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">92086 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InvalidUsernameInvalidPassword</span>
+                <span class="method-start">93360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">93562 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">93631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">InvalidUsernameEmptyPassword</span>
+                <span class="method-start">95932 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96085 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">96152 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EmptyUsernameValidPassword</span>
+                <span class="method-start">97489 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">97642 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">97709 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EmptyUsernameInvalidPassword</span>
+                <span class="method-start">98944 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">99108 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setupBrowser</span>
+                <span class="method-start">99173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">EmptyUsernameEmptyPassword</span>
+                <span class="method-start">100402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">100499 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -7,8 +7,9 @@
     <test name="Login Test">
 
         <classes>
-            <class name="AutomationExam.TestCases.LoginTestCases" />
-            <class name="AutomationExam.TestCases.CartTestCases"/>
+<!--            <class name="AutomationExam.TestCases.LoginTestCases" />-->
+            <class name="AutomationExam.CartCases.TestCases.CartAutomation"/>
+            <class name="AutomationExam.LoginCases.TestCases.LoginTestCases"/>
         </classes>
     </test>
 

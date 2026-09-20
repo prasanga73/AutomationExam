@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfa32ff2-cd00-4dc6-abe6-1db9b0289690" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationExam/AutomationExam.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationExam/BaseClass/BaseClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationExam/Pages/CartPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationExam/Pages/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationExam/TestCases/CartTestCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AutomationExam/TestCases/LoginTestCases.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Automation Exercise Suite/Login Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Automation Exercise Suite/Login Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Automation Exercise Suite/Login Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Automation Exercise Suite/Login Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AutomationExam/BaseClass/BaseClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AutomationExam/Pages/CartPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AutomationExam/TestCases/CartTestCases.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,61 +46,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.161729572609915E-24" />
-      <entry key="MS500" value="1.6331309485269528E-5" />
-      <entry key="S2" value="0.06357408199024878" />
-      <entry key="S5" value="0.3422233462919289" />
-      <entry key="S10" value="0.7183785389312288" />
-      <entry key="S30" value="1.6784805015649225" />
-      <entry key="S60" value="2.6401627555291527" />
-      <entry key="M2" value="4.8354693424415345" />
-      <entry key="M5" value="9.908826409593669" />
-      <entry key="M10" value="19.0246651445622" />
-      <entry key="M15" value="28.33185507544123" />
-      <entry key="M30" value="47.68714515677003" />
-      <entry key="H1" value="64.66323401935685" />
-      <entry key="H2" value="76.05388736679151" />
-      <entry key="H4" value="82.67256038107527" />
-      <entry key="D1" value="88.72625034199129" />
-      <entry key="W1" value="89.8167045386339" />
+      <entry key="MS100" value="4.891662750580371E-218" />
+      <entry key="MS500" value="3.607719219046911E-44" />
+      <entry key="S2" value="2.2226174464311812E-11" />
+      <entry key="S5" value="1.0031412549390413E-4" />
+      <entry key="S10" value="0.017174248340808343" />
+      <entry key="S30" value="0.5355653853942967" />
+      <entry key="S60" value="1.2892965938747958" />
+      <entry key="M2" value="2.255474686652275" />
+      <entry key="M5" value="4.74252358951022" />
+      <entry key="M10" value="11.151999712078679" />
+      <entry key="M15" value="19.497134078297606" />
+      <entry key="M30" value="44.03836318737336" />
+      <entry key="H1" value="74.71368686742494" />
+      <entry key="H2" value="100.49064225036484" />
+      <entry key="H4" value="117.46233787170796" />
+      <entry key="D1" value="134.29659782305936" />
+      <entry key="W1" value="137.46359859911038" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0000000000000067" />
-      <entry key="S10" value="1.0000000823929192" />
-      <entry key="S30" value="1.005885393796699" />
-      <entry key="S60" value="1.1336300455403732" />
-      <entry key="M2" value="1.708254199001522" />
-      <entry key="M5" value="3.2070046654486055" />
-      <entry key="M10" value="5.391938862689929" />
-      <entry key="M15" value="7.3872269898402845" />
-      <entry key="M30" value="11.385407180083714" />
-      <entry key="H1" value="14.84719858603928" />
-      <entry key="H2" value="17.164122080404823" />
-      <entry key="H4" value="18.509926840376018" />
-      <entry key="D1" value="19.740949882744008" />
-      <entry key="W1" value="19.96272123207623" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000000000258" />
+      <entry key="S60" value="1.0000003408108948" />
+      <entry key="M2" value="1.0014142654370175" />
+      <entry key="M5" value="1.237775911019809" />
+      <entry key="M10" value="2.592190348778619" />
+      <entry key="M15" value="4.409280277731758" />
+      <entry key="M30" value="9.608352453436163" />
+      <entry key="H1" value="15.981921079827703" />
+      <entry key="H2" value="21.2966759341601" />
+      <entry key="H4" value="24.785371912569744" />
+      <entry key="D1" value="28.240463570532416" />
+      <entry key="W1" value="28.8899995227622" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.001053933824711354" />
-      <entry key="MS500" value="0.25384349709299875" />
-      <entry key="S2" value="0.7472835543277527" />
-      <entry key="S5" value="1.1497459104628631" />
-      <entry key="S10" value="1.5864462280998621" />
-      <entry key="S30" value="2.616488372906152" />
-      <entry key="S60" value="3.7265706102517404" />
-      <entry key="M2" value="6.503269580003676" />
-      <entry key="M5" value="13.084259985111595" />
-      <entry key="M10" value="24.38731937270948" />
-      <entry key="M15" value="35.690120586894345" />
-      <entry key="M30" value="59.04799858556735" />
-      <entry key="H1" value="79.49365372061645" />
-      <entry key="H2" value="93.20809505870075" />
-      <entry key="H4" value="101.17708486581871" />
-      <entry key="D1" value="108.46623177420449" />
-      <entry key="W1" value="109.77928566663921" />
+      <entry key="MS100" value="7.746242488443707E-7" />
+      <entry key="MS500" value="0.059954007457829014" />
+      <entry key="S2" value="0.4948283282206268" />
+      <entry key="S5" value="0.754794700535928" />
+      <entry key="S10" value="0.8842736690988268" />
+      <entry key="S30" value="1.472342864719015" />
+      <entry key="S60" value="2.2449587005129565" />
+      <entry key="M2" value="3.2258883767766866" />
+      <entry key="M5" value="5.957190098114356" />
+      <entry key="M10" value="13.720617559115288" />
+      <entry key="M15" value="23.88156689710239" />
+      <entry key="M30" value="53.621581976697705" />
+      <entry key="H1" value="90.67517656096041" />
+      <entry key="H2" value="121.7737862614353" />
+      <entry key="H4" value="142.23984820297497" />
+      <entry key="D1" value="162.53556951460442" />
+      <entry key="W1" value="166.35338010786606" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -98,28 +115,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;TestNG./home/ethereal/IdeaProjects/AutomationExam/src/test/java/AutomationExam/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG./home/ethereal/IdeaProjects/AutomationExam/src/test/java/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.CartTestCases.executor&quot;: &quot;Run&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ethereal/IdeaProjects/AutomationQA&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/ethereal/IdeaProjects/AutomationExam/src/main/java/org/example/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "TestNG./home/ethereal/IdeaProjects/AutomationExam/src/test/java/AutomationExam/testng.xml.executor": "Run",
+    "TestNG./home/ethereal/IdeaProjects/AutomationExam/src/test/java/testng.xml.executor": "Run",
+    "TestNG./home/ethereal/IdeaProjects/AutomationExam/testng.xml.executor": "Run",
+    "TestNG.CartAutomation.executor": "Run",
+    "TestNG.CartTestCases.executor": "Run",
+    "TestNG.LoginTestCases.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/ethereal/IdeaProjects/AutomationExam",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/home/ethereal/IdeaProjects/AutomationExam/src/main/java/org/example/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="AutomationExam" />
